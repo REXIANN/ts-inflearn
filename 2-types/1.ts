@@ -6,11 +6,11 @@ const msg: string = isBig ? '크다' : '작다';
 
 const values: number[] = [1, 2, 3];
 const values2: Array<number> = [1, 2, 3];
-values.push('a');
+// values.push('a');
 
 const data: [string, number] = [msg, size]; // tuple
 data[0].substr(1);
-data[1].substr(1);
+// data[1].substr(1);
 
 console.log('type of :  123', typeof 123)
 console.log('type of : "abc"', typeof 'abc')
